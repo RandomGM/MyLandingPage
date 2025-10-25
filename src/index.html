@@ -9,7 +9,7 @@
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+       
         section {
 
         display: flex;
@@ -19,35 +19,73 @@
         min-height: 100vh;
          
         }
-        p {
-            margin: 0
+
+        #hero-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        
         }
 
-        h1 {
-            font-size: 15vh;
-            font-family: "Poppins", sans-serif;
-            margin: 5;
+        #hero-wrapper p {
+            margin: 0;
+            font-size: large;
+
         }
 
-        .imagem1{
+        #hero-wrapper h1 {
+            font-size: 120px;
+            font-family:"Poppins", sans-serif;
+            margin: 0;
+
+        }
+
+        #hero-wrapper img {
+            width: 200px;
+            height: 200px;
             border: 3px solid black;
             padding: 45px;
-            border-radius: 50% 50% 0px 0px;
+            border-radius: 50% 50% 50% 50%;
             box-shadow: 10px 10px 0 black;
-
         }
+
+        
+
+
+
+
+
+
+
 
 
     </style>
-    <section>
+
+    <header id="hero-wrapper">
 
             <div class="imagem1">
-        <img src="https://th.bing.com/th/id/OIP.bVH-9IMN-Ivmy4nNTb2lcQHaHa?w=176&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" height="200px" width="200px">
+        <img src="https://th.bing.com/th/id/OIP.bVH-9IMN-Ivmy4nNTb2lcQHaHa?w=176&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3">
             </div>
 
         <h1>hello world!</h1>
-        <p>The Binding Of Isaac is a very good game!!!</p>
 
-</section>
+        <p>The Binding Of Isaac is a very good game!!</p>
+
+
+
+        </header>
+
+    <section class="content-section" id="sobre mim">
+        <h2>Sobre Mim</h2>
+        <p>
+            <strong>(introdução)</strong> Preencher introdução
+        </p>
+        <p>
+            <strong>(descrição)</strong> Preencher descrição
+        </p>
+
+    </section>
 </body>
 </html>
