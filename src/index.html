@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: rgb(196, 196, 196);">
+<body style="background-color: rgb(243, 243, 243);">
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
        
         section {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
-      
-         
         }
 
         #hero-wrapper {
@@ -63,57 +60,34 @@
             justify-content: center;
             background-color: white;
             border-radius: 8px;
-            max-width: 900px;
-            padding: 10px 10px;
-            margin: 10px;
+            max-width: 100vh;
+            padding: 60px 20px;
+            margin: 0 auto;
+            margin-top: 20px;
+            box-shadow: 10px;
         }
 
-        .content-section2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: white;
-            border-radius: 8px;
-            max-width: 900px;
-            padding: 10px 10px;
-            margin: 10px;
-        }
 
-        .content-section3{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: white;
-            border-radius: 8px;
-            max-width: 900px;
-            padding: 10px 10px;
-            margin: 10px;
-        }
-
-        .content-section p {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-
-
-        }
 
         .content-section h2 {
             display: flex;
             flex-direction: column;
             justify-content: center;
-
+            align-items: center;
+            height: 100px;
+            font-size: 50px;
 
         }
 
-        .tech-icon {
+        .tech-icons {
             width:80px;
             height:80px;
             display:flex;
-            flex-direction:column;
             justify-content:center;
+            align-items: center;
             border-radius:50%;
-            
+            background-color: aliceblue;
+
 
         }
 
@@ -142,14 +116,15 @@
             <strong>(introdução)</strong> Preencher introdução
         </p>
 
-
         <p>
             <strong>(descrição)</strong> Preencher descrição
         </p>
 
     </section>
 
-    <section class="content-section2" id="projetos">
+
+
+    <section class="content-section" id="projetos">
 
         <h2>Projetos</h2>
 
@@ -164,7 +139,9 @@
 
     </section>
 
-    <section class="content-section3" id="tecnologias">
+
+
+    <section class="content-section" id="tecnologias">
 
         <h2>Minhas Tecnologias</h2>
 
@@ -177,7 +154,15 @@
             <strong>(descrição)</strong> Preencher descrição
         </p>
 
+
+            <div class='tech-icons'>
         <div class="tech-icon">HTML</div>
+
+        <div class="tech-icon">CSS3</div>
+
+        <div class="tech-icon">JavaScript</div>
+            </div>
+
 
     </section>
 </body>
