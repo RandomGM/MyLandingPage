@@ -114,3 +114,38 @@ main {
     transform: translateY(-10px);
     box-shadow: 0px 7px 0px #888;
 }
+
+.hh{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.project-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 8px black ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px black;
+
+
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: pink;
+    }
+
+}
+
