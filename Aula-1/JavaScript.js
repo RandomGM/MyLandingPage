@@ -19,7 +19,7 @@ function alerta321(){
 
 let projetos = [
 
-    {titulo: "Projeto 1", descricao: "Laço de repetição", link: "https://editor.p5js.org/Nicolasmp12321/full/f6TvSHfUA"},
+    {titulo: "Projeto 1", descricao: "Contador de cliques", link: "https://editor.p5js.org/Nicolasmp12321/full/7xVJyy1qI"},
 
     {titulo: "Projeto 2", descricao: "Meu Projeto 2", link: "#"},
 
@@ -35,7 +35,7 @@ var projectgrid = document.querySelector(".project-grid")
         var card = document.createElement("a"); // <a> <a/>
         card.className = "project-card"; // <a class= "project-card"> <a/>
         card.href = projeto.link; // <a class="projet-card" href = "link do projeto"> <a/>
-        card.innerHTML = "h3" + projeto.titulo + "<h3> <p>" + projeto.descricao;
+        card.innerHTML = "<h3>" + projeto.titulo + "</h3> <p>" + projeto.descricao; "</p>"
         projectgrid.appendChild(card);
 
 

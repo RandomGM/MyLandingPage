@@ -53,7 +53,7 @@ main {
 .content-section + .content-section {
     margin-top: 20px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 10px rgba(70,70,70);
 }
 
 .content-section h2 {
@@ -122,23 +122,31 @@ main {
     align-items: center;
     flex-direction: column;
 
+    
+
+}
+
+#imgEu {
+    border-radius: 100%;
 }
 
 .project-card {
+    margin: 20px;
     text-decoration: none;
     color: inherit;
     display: block;
     border: 1px solid white;
     border-radius: 8px;
     padding: 25px;
-    box-shadow: 0 4px 8px black ;
+    box-shadow: 0 4px 8px rgb(70, 70, 70) ;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
 .project-card:hover {
+    
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px black;
+    box-shadow: 0 6px 12px rgb(70, 70, 70);
 
 
 }
