@@ -19,11 +19,11 @@ function alerta321(){
 
 let projetos = [
 
-    {titulo: "Projeto 1", descricao: "Contador de cliques", link: "https://editor.p5js.org/Nicolasmp12321/full/7xVJyy1qI"},
+    {titulo: "Contador de cliques", descricao: "Projeto desenvolvido com JavaScript utilizando o p5js para contagem de cliques.", link: "https://editor.p5js.org/Nicolasmp12321/full/7xVJyy1qI"},
 
-    {titulo: "Projeto 2", descricao: "Meu Projeto 2", link: "#"},
+    {titulo: "Laço de repetição", descricao: "Projeto desenvolvido com JavaScript utilizando o p5js para repetir uma ação em looping. ", link: "https://editor.p5js.org/Nicolasmp12321/full/f6TvSHfUA"},
 
-    {titulo: "Projeto 3", descricao: "Meu projeto 3", link: "#"}
+    {titulo: "Troca de Humor", descricao: "Projeto desenvolvido com JavaScript utilizando o p5js que altera o humor a partir do clique do mouse", link: "https://editor.p5js.org/Nicolasmp12321/full/zw1OPwCd7"}
 
 ]
 
