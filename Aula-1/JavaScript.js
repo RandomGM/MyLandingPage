@@ -33,6 +33,7 @@ var projectgrid = document.querySelector(".project-grid")
     projetos.forEach(function (projeto) {
 
         var card = document.createElement("a"); // <a> <a/>
+        card.target="_blank"
         card.className = "project-card"; // <a class= "project-card"> <a/>
         card.href = projeto.link; // <a class="projet-card" href = "link do projeto"> <a/>
         card.innerHTML = "<h3>" + projeto.titulo + "</h3> <p>" + projeto.descricao; "</p>"
