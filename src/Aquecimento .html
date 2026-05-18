@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+
+        h1 {
+            margin:20px
+        }
+
+        button{
+            margin:100px
+        }
+
+    </style>
+
+
+    <h1 id="titulo1">Título</h1>
+    <button onclick="RemoveTitulo()">Remove Título</button>
+
+
+    <script>
+
+        function RemoveTitulo () {
+
+            document.getElementById("titulo1").remove();
+        }
+
+    </script>
+
+</body>
+</html>
